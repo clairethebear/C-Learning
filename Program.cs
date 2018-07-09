@@ -10,6 +10,7 @@ namespace fuel_usage_app
             Fuel Fuel = new Fuel();
 
             /* Dave Question: what is the most C# way of splitting writelines?*/
+            //This is a test.
             Console.WriteLine("Please enter the distance travelled in Kilometers:");
             string distance_travelled = Console.ReadLine();
             distance_travelled = Fuel.CheckUserInput(distance_travelled);
